@@ -51,5 +51,27 @@ i.e. 21,000gas*1GWEI per gas = 21,000 GWEI
 
 +Gas Price is based off the "demand" of the blockchain.
 +The more people wants to make transactions, the higher the gas price, and therefore 
-the higher the transaction fees.
+the higher the transaction fees.{YOU CAN CHECK ON ETH GAS STATION}
+
+
+BLOCKCHAIN WORKING DEMO WEBSITE
+https://andersbrownworth.com/blockchain/hash
+
+HASH
++A unique fixed length string,meant to identify a piece of data. They are created by 
+placing said data.They are created by placing some data into a "hash function".
++Ethereum uses Keccak256 for its hashing algorithm.
+               |
+               |
+               |
+BLOCK
++Block consist of data and nonce which combine and give a hash value.
++Every hash value starts with 0000 (it was a struggle for developers to find a nonce value
+ for for making hash value start with 0000).
+                |
+                |
+                |
+ BLOCHAIN FORMATION 
+ +Many blocks combine and make blockchain.
+ +Genesis Block- The first block in a bloackchain.(which has previous block value as all 0).
 
