@@ -1,0 +1,55 @@
+INTRODUCTION 
++Bitcoin was the firs one to take blockchain mainstream.
++Bitcoin is like a digital gold.
++Etereum allows for smart contracts.
++Chainlink provides data and external computation to smart contracts.
++Hybrid Smart Contracts combine on-chain and off chain components.
+
+
+Features of blockchain
++Decentralized
++Transparency and Flexibility
++Speed and Efficiency
++Security and Immutability
++Removal of Counterparty Risk
++Trust minimized agreements
+
+DAOs [Decentralized autonomous organizations]
++The backbone of a DAO is its smart contract. 
++The contract defines the rules of the organisation and holds the group's treasury. 
++Once the contract is live on Ethereum, no one can change the rules except by a vote. 
+
+META MASK
++Create a Meta Mask Wallet.
++Save your wallet Secret Code safely.
++Testnets are free and for testing smrt contrats.
++Mainnet cost money and are considered "live".
+
+FAUCET
++Is an application that gives us free tokens, 
+like free test Rinkeby Ethereum.
+
+TEST NETWORKS
++Rinkeby - get testing ethereum 
+
+BLOCK EXPLORER
++An application that allows us to "view" ransaction that happen on a blockchain.{ETHERSCAN}
+
+GAS
++Gas ia a unit of computational measure. The more computation a transaction uses 
+the more "gas" you have to pay for.
++Every transaction that happens on-chain pays a "gas fee" to node operators.
++The amount of "gas" used and how much you pay depends on how "computationally
+expensive" your transaction is.
++Sending ETH to 1 address would be "cheaper" than sending ETH to 1,000 address.
+
++Gas: Measure of computation use
++Gas Price: How much it costs per unit of gas.
++Gas Limit: Max amount of gas in a transaction.
++Transaction Fee: Gas Used * Gas Praice
+i.e. 21,000gas*1GWEI per gas = 21,000 GWEI
+
++Gas Price is based off the "demand" of the blockchain.
++The more people wants to make transactions, the higher the gas price, and therefore 
+the higher the transaction fees.
+
