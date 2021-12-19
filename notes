@@ -13,6 +13,7 @@ Features of blockchain
 +Security and Immutability
 +Removal of Counterparty Risk
 +Trust minimized agreements
++Blockchains are resilient.
 
 DAOs [Decentralized autonomous organizations]
 +The backbone of a DAO is its smart contract. 
@@ -91,14 +92,78 @@ Basic Termonology--
 
 +NODE - A single instance in a decentralized network.
 
-+NONCE - A "number used once" to find the "solution" to the blockchain problem. It's also used to define the transaction number for an account/address.
++NONCE - A "number used once" to find the "solution" to the blockchain problem. It's also used to define
+ the transaction number for an account address.
 
 +Private Key - Only known to the key holder, it's used to "sign" transactions.
 
-+Public Key - Is derived from your private key.Anyone can "see" it, and use it to verify that a transaction came from you.
++Public Key - Is derived from your private key.Anyone can "see" it, and use it to verify that a transaction 
+came from you.
 
-+Signing a transaction - A "one way" process. Someone with a private key signs a transaction by their private key being hashed with their transaction data.
++Signing a transaction - A "one way" process. Someone with a private key signs a transaction by their private
+ key being hashed with their transaction data.
 Anyone can then verify this new transaction hash with your public key.
 
 HOW IS ADDRESS CREATED
-+To get address in ethereum allows they do is take public key that we created with ur private key hash is using that same algorithm Ethereum hashing algorithm and then take the last 20 bits.
++To get address in ethereum allows they do is take public key that we created with ur private key hash is using
+ that same 
+algorithm Ethereum hashing algorithm and then take the last 20 bits.
+
++Blockchain nodes keep lists of the transaction that occur.
+
+
+ALL ABOUT IMPLMENTATION
+
+CONSENSUS
++It is the mechanism used to agree on the state of a blockchain. 
++CONSENSUS can also of two types
+      -- Chain Seletion  -- IN Ethereum they uses NAKAMOTO CONSENSUS which is a combinatin of chain selection and proof of work
+      -- Sybil Resistance   +It is one in two ways 
+                                 -Proof of Work 
+                                 -Proof of Stake
+
+
+PROOF OF WORK
++Proof-of-work is the mechanism that allows the decentralized Ethereum network to come to consensus, or agree on things like account balances and the order of transactions.
++Proof-of-work is the underlying algorithm that sets the difficulty and rules for the work miners do. 
++Mining is the "work" itself. It's the act of adding valid blocks to the chain. This is important because the chain's length helps the network follow the correct Ethereum chain and understand Ethereum's current state. The more "work" done, the longer the chain, and the higher the block number, the more certain the network can be of the current state of things
++Disadvantages of PoW
+     -Proof-of-work uses up so much energy that it's bad for the environment.
+     -If you want to mine, you need such specialized equipment that it's a big investment to start.
+
+
+PROOF OF STAKE
++Proof-of-stake is a type of consensus mechanism used by blockchain networks to achieve distributed consensus.
++It requires users to stake their ETH to become a validator in the network. Validators are responsible for the same thing as miners in proof-of-work: ordering transactions and creating new blocks so that all nodes can agree on the state of the network.
++Proof-of-stake comes with a number of improvements to the proof-of-work system:
+   -better energy efficiency – you don't need to use lots of energy mining blocks
+   -lower barriers to entry, reduced hardware requirements – you don't need elite hardware to stand a chance of creating new blocks
+   -stronger immunity to centralization – proof-of-stake should lead to more nodes in the network
+   -stronger support for shard chains – a key upgrade in scaling the Ethereum network
+
++Ways in which nodes or miners are paid
+    -- Transaction Fees 
+    -- Block Reward
+
++Two types of attack that could happen in blockchain world
+  - Sybil Attack is a type of attack seen in peer-to-peer networks in which a node in the network operates multiple identities actively at the same time and undermines the authority/power in reputation systems.
+  - 51% attack allow malicious entities to withhold majority control of a network it occurs when a single person or group of people gains control of over 50% of a blockchain's network.
+
++Sharding 
+     Sharding is a database partitioning technique used by blockchain companies with the purpose of scalability, enabling them to process more transactions per second. ... Sharding can help reduce the latency or slowness of a network since it splits a blockchain network into separate shards.
+
++Layer 1 
+     Base Layer blockchain implementation
++Layer 2
+     Any application built on top of a layer 1.
+     Example 
+       - Chainlink 
+       - Optimistic 
+       
++Rollups are solutions that perform transaction execution outside the main Ethereum chain (layer 1) but post transaction data on layer 1. As transaction data is on layer 1, rollups are secured by layer 1. Inheriting the security properties of layer 1 while performing execution outside of layer 1 is a defining characteristic of rollups.
+   EXAMPLE-
+       Optimistic Ethereum is a rollup scaling solution that allows users to submit transactions on the Ethereum network and get them executed faster for a much lower gas cost.
+
+
+
+       
